@@ -1,6 +1,6 @@
 fn main(){
 
-let a:i32 =60;
+let a:i32 =40;
 let b:i32 =2;
 
 let suma = a + b;
@@ -14,5 +14,4 @@ println!("Resta = {}",resta);
 println!("Multiplicacion = {}",multiplicacion);
 println!("Divicion = {}",divicion);
 println!("Modulo = {}",modulo);
-
 }
