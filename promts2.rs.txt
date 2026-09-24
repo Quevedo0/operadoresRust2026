@@ -1,0 +1,27 @@
+
+fn main() {
+    let num1: f64 = 8.5;
+    let num2: f64 = 4.0;
+
+    let suma = num1 + num2;
+    println!("La suma de {} + {} es: {}", num1, num2, suma);
+
+    if num2 != 0.0 {
+        let division = num1 / num2;
+        println!("La división de {} / {} es: {}", num1, num2, division);
+    } else {
+        println!("Error: No se puede dividir entre cero.");
+    }
+
+    if num1 > 6.0 {
+        println!("El primer número ({}) es mayor que 6.", num1);
+    } else {
+        println!("El primer número ({}) es menor o igual que 6.", num1);
+    }
+
+    if num2 > 6.0 {
+        println!("El segundo número ({}) es mayor que 6.", num2);
+    } else {
+        println!("El segundo número ({}) es menor o igual que 6.", num2);
+    }
+}
