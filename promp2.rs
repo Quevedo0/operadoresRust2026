@@ -1,14 +1,15 @@
 fn main(){
-//Salazar Cazarez Uziel Yeray
 
-let num = 15;
-let num2 = 10;
+let n2 = 8;
+let n1 = 5;
 
-println!("Números: ({}), ({})\n", num, num2);
-println!("Suma: {}", num + num2);
-println!("Resta: {}", num - num2);
-println!("Multiplicación: {}", num * num2);
-println!("División: {}", num / num2);
-println!("Módulo (residuo): {}", num % num2);
+println!("modulo: {}", n1 % n2);
+println!("division: {}", n1 / n2);
+println!("multiplicacion: {}", n1 * n2);
+println!("resta: {}", n1 - n2);
+println!("suma: {}", n1 + n2);
+
+println!("numeros: {} y {}\n", n1, n2);
+println!("Molina Ibarra Kevin Giovanni");
 
 }
