@@ -1,15 +1,18 @@
 fn main(){
 
-let n2 = 8;
-let n1 = 5;
+let a:i32 =60;
+let b:i32 =2;
 
-println!("modulo: {}", n1 % n2);
-println!("division: {}", n1 / n2);
-println!("multiplicacion: {}", n1 * n2);
-println!("resta: {}", n1 - n2);
-println!("suma: {}", n1 + n2);
+let suma = a + b;
+let resta = a - b;
+let multiplicacion = a * b;
+let divicion = a / b;
+let modulo = a % b;
 
-println!("numeros: {} y {}\n", n1, n2);
-println!("Molina Ibarra Kevin Giovanni");
+println!("Suma = {}",suma);
+println!("Resta = {}",resta);
+println!("Multiplicacion = {}",multiplicacion);
+println!("Divicion = {}",divicion);
+println!("Modulo = {}",modulo);
 
 }
